@@ -1,0 +1,23 @@
+% 首页设置：只显示页脚（阿拉伯数字页码）
+\thispagestyle{plain}  % 只插入页脚，阿拉伯数字页码
+\renewcommand{\thepage}{\arabic{page}}  % 设置为阿拉伯数字页码
+
+% 非首页设置：自定义页眉和页脚
+\newpage
+\pagestyle{fancy}  % 启用 fancy 样式
+
+% 清空默认的页眉页脚
+\fancyhead{}  % 清空页眉
+\fancyfoot{}  % 清空页脚
+
+
+% 设置奇数页页眉
+\fancyhead[RO]{\thepage}  % 奇数页右侧显示页码
+% \fancyhead[CE]{\thechapter\ \leftmark}  % 奇数页中间显示章标题
+\fancyhead[CE]{\leftmark}  % 只显示章标题，格式如“第 1 章 绪论”
+
+% 设置偶数页页眉
+\fancyhead[LE]{\thepage}  % 偶数页左侧显示页码
+\fancyhead[CO]{复旦大学*学院}  % 偶数页中间显示学院名称
+
+\chapter{绪论}
