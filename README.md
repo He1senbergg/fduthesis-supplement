@@ -5,7 +5,7 @@
 ### 主要作用
 
 在主体模板的基础上，提供复旦大学毕业论文盲审封面，并提供了修改版的页眉和页脚（此为可选项，可去除）。
-![image](https://github.com/user-attachments/assets/fe4d9cd3-a64a-49c6-8b36-c277284cab52)
+![image](https://github.com/user-attachments/assets/e7009b4a-f060-477b-91b8-5cc1cff25062)
 
 ### 使用方法-盲审封面
 
@@ -24,7 +24,7 @@
 ### 页眉页脚格式说明
 封面页（封一及封三）及空白页不插入页眉页脚。
 前置部分不插入页眉，仅插入页脚。页脚为用罗马数字编号的页码，居中置于页面底端。 
-主体和后置部分，应按以下要求插入页眉和页脚：在每一章的首页，不插入页眉，仅插入页脚，页脚为用阿拉伯数字编号的页码；在每一章的非首页，不插入页脚，仅插入页眉。对于奇数页，在页眉最右标记用阿拉伯数字编号的页码，页眉正中标记本章的标题；对于偶数页，在页眉最左标记用阿拉伯数字编号的页码，页眉正中标记“复旦大学大数据学院”。 
+主体和后置部分，应按以下要求插入页眉和页脚：在每一章的首页，不插入页眉，仅插入页脚，页脚为用阿拉伯数字编号的页码；在每一章的非首页，不插入页脚，仅插入页眉。对于奇数页，在页眉最右标记用阿拉伯数字编号的页码，页眉正中标记本章的标题；对于偶数页，在页眉最左标记用阿拉伯数字编号的页码，页眉正中标记“复旦大学*学院”。 
 
 ### 使用方法-页眉页脚修改
 
@@ -52,6 +52,13 @@ Based on the main template, it provides a blind review cover for Fudan Universit
   \pagestyle{plain}  % 仅显示页脚
   \renewcommand{\thepage}{\roman{page}}  % 使用罗马数字页码
 ```
+
+### Header and Footer Format Instructions
+
+Cover pages (Cover One and Cover Three) and blank pages do not include headers or footers.
+In the front matter, no headers are inserted; only footers are included. The footers display page numbers in Roman numerals, centered at the bottom of the page.
+For the main content and back matter, headers and footers should be inserted as follows: on the first page of each chapter, no header is inserted; only a footer is inserted, displaying the page number in Arabic numerals; on non-first pages of each chapter, no footer is inserted; only a header is inserted. For odd-numbered pages, the header shows the page number in Arabic numerals at the far right and the chapter title in the center; for even-numbered pages, the header shows the page number in Arabic numerals at the far left and the text “***, Fudan University” in the center.
+
 
 ### How to Use – Modify Headers and Footers
 
