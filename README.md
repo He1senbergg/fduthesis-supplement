@@ -1,6 +1,6 @@
 # fduthesis-supplement
 
-本仓库为[fduthesis]([https://zhuanlan.zhihu.com/p/654414894](https://github.com/stone-zeng/fduthesis))的补充，主体请先使用其仓库中的文件内容。
+本仓库为[fduthesis](https://github.com/stone-zeng/fduthesis)的补充，主体请先使用其仓库中的文件内容。
 
 ### 主要作用
 
